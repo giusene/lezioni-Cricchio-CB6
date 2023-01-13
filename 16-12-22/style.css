@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #777;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* queste sono le pseudo classi */
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header img {
+  height: 100px;
+}
+
+header .hamburger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+header .hamburger .linea {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  margin: 20px auto;
+  position: relative;
+}
+
+.box .pallina {
+  position: absolute;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  bottom: 300px;
+  right: 40px;
+}
+
+#sampleForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px auto;
+}
+
+#sampleForm input,
+#sampleForm select,
+#sampleForm textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+}
