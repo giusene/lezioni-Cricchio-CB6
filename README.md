@@ -1,5 +1,12 @@
 # Lezioni Cricchio
 
+## Esercitazione 10-02-23
+
+- continuare a stilizzare l'eccomerce
+- sistemare modale carello
+- aggiungere pulsante per rimuovi prodotto dal carrello
+- ADVACED: possibilità di modificare le quantita dalla modale
+
 ## Esercitazione 03-02-23
 
 - template di riferimento: https://bootstrap-ecommerce.com/templates/alistyle-html/page-index.html
